@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.vercel/
+.DS_Store
+*.log
+
+# Dados brutos ficam fora do Git (ver data/README.md)
+data/raw/*
+!data/raw/.gitkeep

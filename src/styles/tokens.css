@@ -1,0 +1,10 @@
+/* Cores e fontes definidas pelo design. Mudar aqui, nunca direto nas cenas. */
+:root {
+  --sirene: #e5202e;
+  --azul: #2a62ff;
+  --ambar: #ffb81c;
+  --osso: #f3efe8;
+  --fundo: #000;
+  --display: 'Big Shoulders Display', 'Impact', sans-serif;
+  --corpo: 'Figtree', system-ui, sans-serif;
+}

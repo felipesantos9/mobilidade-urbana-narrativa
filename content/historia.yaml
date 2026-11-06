@@ -1,0 +1,6 @@
+# Ordem das cenas e quanto scroll cada uma ocupa.
+# id precisa existir em src/cenas/; altura é o "tempo" da cena (ex.: 200svh).
+titulo: Mobilidade Urbana
+cenas:
+  - id: abertura
+    altura: 200svh

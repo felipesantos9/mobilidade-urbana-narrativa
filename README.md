@@ -2,6 +2,8 @@
 
 Scrollytelling sobre motos, o 192 e o transporte no Recife. Projeto da disciplina Narrativas Inovadoras com Dados na Comunicação Digital (UFPE, 2026.2).
 
+https://mobilidade-urbana-narrativa.vercel.app/
+
 ## Rodar localmente
 
 Requer Node.js 22 ou mais novo.

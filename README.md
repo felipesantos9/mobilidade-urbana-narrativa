@@ -46,4 +46,14 @@ Regras: todo texto da matéria vem do YAML; seletores dentro da cena usam `gsap.
 
 - `main` sempre publicável; mudanças entram por pull request revisado.
 - Branches curtas: `cena/moto`, `dados/samu`, `fix/flash-queda`.
-- Rode `npm run lint` e `npm run format:check` antes de abrir o PR.
+- Ao commitar, o hook do husky roda ESLint e Prettier nos arquivos em stage e corrige o que der.
+- Todo PR roda a CI do GitHub Actions (lint, formatação e build). PR com CI vermelha não entra.
+
+## Deploy
+
+O site é publicado pela Vercel, conectada a este repositório:
+
+- Cada push na `main` atualiza o site de produção.
+- Cada pull request ganha um link de preview, comentado no próprio PR. É por ele que jornalismo e design revisam no celular.
+
+Configuração do projeto na Vercel (uma vez só): importar o repositório do GitHub, framework **Vite**, comando de build `npm run build`, pasta de saída `dist`.
